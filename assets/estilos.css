@@ -1,0 +1,190 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@font-face {
+  font-family: "fuentePrincipal";
+  src: url("../assets/fonts/Urbanist/static/Urbanist-Light.ttf");
+}
+@font-face {
+  font-family: "fuenteBold";
+  src: url("../assets/fonts/Urbanist/static/Urbanist-ExtraBold.ttf");
+}
+:root {
+  --fondo: #0d0c03;
+  --primario: #292929;
+  --secundario: #ffe51f;
+  background-color: var(--fondo);
+  color: white;
+}
+body {
+  font-family: "fuentePrincipal";
+  background-color: var(--fondo);
+}
+header nav {
+  font-family: "fuentePrincipal";
+  background-color: var(--primario);
+  padding: 25px 50px;
+  border-radius: 999px;
+}
+header nav .logoAnxo {
+  color: var(--secundario);
+  font-family: "fuenteBold";
+  font-weight: 100;
+  font-size: 24px;
+  margin-left: 15px;
+}
+header nav .logoAnxo:hover{
+    color: white;
+}
+header nav div .desplegable {
+  background-color: var(--primario);
+  font-family: "fuenteBold";
+  font-size: 46px;
+  font-weight: 600;
+  padding: 20px 0px 20px 0px;
+}
+header nav div .desplegable div ul a {
+
+  color: white;
+}
+header nav div .desplegable div ul a:hover {
+    color: var(--secundario);
+  }
+header nav div .desplegable div .botonDesplegable {
+  color: var(--secundario);
+  background-color: transparent;
+  border: 0px;
+}
+header nav div .desplegable div .botonDesplegable svg {
+  height: 50px;
+  width: auto;
+  margin: 0px;
+}
+header nav div button .iconoDesplegable {
+  color: var(--secundario);
+}
+body .mosaicoInicio {
+  background-color: var(--fondo);
+  margin-top: 80px;
+}
+body .mosaicoInicio div article {
+  border-radius: 24px;
+  color: white;
+  background-color: var(--primario);
+}
+body .mosaicoInicio div article img {
+  background-color: var(--secundario);
+  padding: 2px;
+}
+body .mosaicoInicio div article .presentacion p a {
+  color: white;
+}
+body .mosaicoInicio div article .imagenContacto svg {
+  height: 100%;
+  width: auto;
+  color: white;
+}
+.mosaicoInicio .tarifas a {
+  background-color: var(--secundario);
+  font-weight: bold;
+}
+.mosaicoInicio .enlaces div a {
+  background-color: var(--primario);
+  color: white;
+}
+.mosaicoInicio .grupoTecnologias {
+  background-image: url("../assets/img/grupoTecnologias.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  color: white;
+}
+
+body .cuerpoTarifas{
+    background-color: var(--fondo);
+    margin-top: 80px;
+}
+body .cuerpoTarifas article{
+    border-radius: 24px;
+    color: white;
+    background-color: var(--primario);
+}
+body .cuerpoTarifas article div button{
+    background-color: var(--secundario);
+    border-radius: 24px;
+}
+body .cuerpoTarifas article div button:hover{
+    background-color: var(--secundario);
+}
+body .cuerpoTecnologias{
+    margin-top: 150px;
+    
+}
+body .cuerpoTecnologias div {
+    border-radius: 24px;
+    color: white;
+    background-color: var(--primario);
+}
+body .cuerpoTecnologias div .cuerpoCarousel{
+    height: 450px;
+}
+body .cuerpoTecnologias div .cuerpoCarousel div img{
+    height: 400px;
+}
+body .cuerpoAbout article{
+    margin-top: 100px;
+    border-radius: 24px;
+    color: white;
+    background-color: var(--primario);
+}
+body .cuerpoAbout div img{
+    background-color: var(--secundario);
+    padding: 2px;
+}
+footer {
+  font-family: "fuentePrincipal";
+  background-color: var(--fondo);
+}
+footer div div {
+  background-color: var(--primario);
+  border-radius: 24px;
+  color: white;
+}
+@media (min-width: 576px) {
+  /* Pantallas sm*/
+}
+
+@media (min-width: 768px) {
+  /* Pantallas md*/
+  header nav div .desplegable div ul a {
+    font-family: "fuentePrincipal";
+    font-size: 18px;
+  }
+  header nav div .desplegable {
+    padding: 0px;
+  }
+  .mosaicoInicio .tarifas a {
+    height: 20%;
+  }
+  .mosaicoInicio .grupoTecnologias {
+    background-image: url("../assets/img/grupoTecnologiasGrande.svg");
+  }
+  body .cuerpoTarifas{
+    height: 750px;
+  }
+  body .cuerpoTarifas div{
+    width: 100%;
+  }
+  .fixed-bottom-md {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  body .cuerpoAbout article{
+    margin-top: 200px;
+}
+}
+
+@media (min-width: 992px) {
+  /* Pantallas lg*/
+}
