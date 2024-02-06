@@ -243,7 +243,5 @@ footer div div {
 @media (min-width: 992px) {
 
   /* Pantallas lg*/
-  .fixed-bottom-md {
-    position: relative;
-  }
+
 }
